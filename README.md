@@ -77,3 +77,23 @@ The implementation for the FCS (line 18) is given in the function images_to_batc
 ## Inference
 ​	To evaluate the pretrained model, choose the dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in ./config/baseline.yaml first, and run the command below：   
 `python main.py --device your_device --load-weights path_to_weight.pt --phase test`
+
+Pretrained model  [[Google Drive]](https://drive.google.com/file/d/1Xt_4N-HjEGlVyrMENydsxNtpVMSg5zDb/view?usp=share_link)
+### PHOENIX2014 dataset
+
+| Backbone | Dev WER  | Test WER  |                                            
+| -------- | ---------- | ----------- | 
+| ResNet18 | 18.4%      | 19.2%       | 
+
+### PHOENIX2014-T dataset
+
+| Backbone | Dev WER  | Test WER  |                                             
+| -------- | ---------- | ----------- | 
+| ResNet18 | 18.5%      | 20.2%       | 
+
+### CSL-Daily dataset
+
+| Backbone | Dev WER  | Test WER  | 
+| -------- | ---------- | ----------- | 
+| ResNet18 | 28.0%      | 27.7%       | 
+
