@@ -99,3 +99,12 @@ Pretrained models  [[Google Drive]](https://drive.google.com/drive/folders/1wLfQ
 | -------- | ---------- | ----------- | 
 | ResNet18 | 28.0%      | 27.7%       | 
 
+## Contact
+
+If you have any questions or suggestions about this project, feel free to reach out:
+
+- **Leming Guo** - [✉️ Email](guoleming@email.tjut.edu.cn) 
+
+You can also open an issue in this repository for project-related discussions.
+
+
