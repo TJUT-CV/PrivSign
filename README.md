@@ -75,7 +75,7 @@ The implementation for the FCS (line 18) is given in the function images_to_batc
    python data_preprocess-CSL-Daily.py --process-image --multiprocessing
 
 ## Inference
-​	To evaluate the pretrained model, choose the dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in ./config/baseline.yaml first, and run the command below：   
+​To evaluate the pretrained model, choose the dataset from phoenix2014/phoenix2014-T/CSL/CSL-Daily in ./config/baseline.yaml first, and run the command below：   
 `python main.py --device your_device --load-weights path_to_weight.pt --phase test`
 
 Pretrained models  [[Google Drive]](https://drive.google.com/drive/folders/1wLfQsMBC0RsRISkrQu5nRf9bEGqlUMP3?usp=sharing)
