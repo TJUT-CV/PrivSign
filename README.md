@@ -19,7 +19,7 @@ This project is implemented in Pytorch (>1.8). Thus please install Pytorch first
    `pip install -r requirements.txt`
 
 ## Implementation
-The implementation for the FCS (line 18) is given in the function images_to_batch in line 97 in [./slr_network.py]([https://github.com/hulianyuyy/CorrNet_CSLR/blob/main/modules](https://github.com/TJUT-CV/PrivSign/edit/main/slr_network.py).  
+The implementation for the FCS (line 18) is given in the function images_to_batch in line 97 in [./slr_network.py](https://github.com/TJUT-CV/PrivSign/main/slr_network.py).  
 
 ### PHOENIX2014 dataset
 1. Download the RWTH-PHOENIX-Weather 2014 Dataset [[download link]](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/). Our experiments based on phoenix-2014.v3.tar.gz.
